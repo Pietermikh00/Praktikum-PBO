@@ -1,4 +1,4 @@
-package Pertemuan8.a;
+package Pertemuan8.b;
 public class Main {
     public static void main(String[] args) {
         Ulat K = new Ulat();
@@ -6,6 +6,12 @@ public class Main {
 
         Kupu objK = K;
         anu.setIsi(objK);
+        anu.getIsi().gerak();
+
+        anu.setIsi(new Kepompong());
+        anu.getIsi().gerak();
+
+        anu.setIsi(new KupuDewasa());
         anu.getIsi().gerak();
     }
 }

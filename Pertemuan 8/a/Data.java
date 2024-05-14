@@ -1,4 +1,4 @@
-package Pertemuan8.a;
+package Pertemuan8.b;
 class Data<T> {
     private T isi;
 
